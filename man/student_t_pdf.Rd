@@ -13,11 +13,11 @@ student_t_cdf(q, df)
 student_t_rnd(n, df)
 }
 \arguments{
-\item{x}{Numeric value(s) for PDF.}
+\item{x}{Numeric value(s) for PDF. x = T-value = (sampleMEan - popMean) / (S / sqrt(n))}
 
-\item{df}{Degrees of freedom (must be > 0).}
+\item{df}{Degrees of freedom (must be > 0). df = n -1}
 
-\item{q}{Numeric value(s) for CDF.}
+\item{q}{Numeric value(s) for CDF. q = T-value}
 
 \item{n}{Number of random observations to generate.}
 }

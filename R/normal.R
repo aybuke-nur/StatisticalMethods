@@ -5,6 +5,11 @@
 #' @details The normal distribution (Gaussian distribution) is defined by its mean and standard deviation.
 #' The standard normal distribution occurs when mu = 0 and sigma = 1.
 #' Support is the set of all real numbers \code{(-Inf, Inf)}.
+#' sigma = population standard deviation
+#' S = sample standard deviation
+#' 
+#'(if population variance known OR popVar unknown and n>=30) sample mean: N(mean, sigma / sqrt(n)) , sd = sigma/sqrt(n)
+#'if used for sample propotion: N(p, sqrt((p*(p-1))/n))
 #'
 #' @param x Numeric value(s) for PDF (density).
 #' @param q Numeric value(s) for CDF.

@@ -7,9 +7,9 @@
 #' when the population variance is unknown.
 #' Support is the set of all real numbers \code{(-Inf, Inf)}.
 #'
-#' @param x Numeric value(s) for PDF.
-#' @param q Numeric value(s) for CDF.
-#' @param df Degrees of freedom (must be > 0).
+#' @param x Numeric value(s) for PDF. x = T-value = (sampleMEan - popMean) / (S / sqrt(n))
+#' @param q Numeric value(s) for CDF. q = T-value
+#' @param df Degrees of freedom (must be > 0). df = n -1
 #' @param n Number of random observations to generate.
 #'
 #' @return

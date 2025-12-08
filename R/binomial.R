@@ -3,7 +3,7 @@
 #' @family discrete-distributions
 #' @description PMF, CDF, and RNG for a binomial distribution with parameters n and p.
 #' @details The Binomial distribution models the number of successes in n independent Bernoulli trials
-#' with probability of success p. Support is {0, 1, ..., n}.
+#' with probability of success p. Support is \code{0, 1, ..., n}.
 #'
 #' @param k Integer value(s) for PMF (x values). looking for k
 #' @param q Numeric value(s) for CDF. x <= k

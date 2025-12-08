@@ -35,6 +35,11 @@ PDF, CDF, and RNG for a normal distribution with mean mu and standard deviation 
 The normal distribution (Gaussian distribution) is defined by its mean and standard deviation.
 The standard normal distribution occurs when mu = 0 and sigma = 1.
 Support is the set of all real numbers \code{(-Inf, Inf)}.
+sigma = population standard deviation
+S = sample standard deviation
+
+(if population variance known OR popVar unknown and n>=30) sample mean: N(mean, sigma / sqrt(n)) , sd = sigma/sqrt(n)
+if used for sample propotion: N(p, sqrt((p*(p-1))/n))
 }
 \examples{
 normal_pdf(0, mean = 0, sd = 1)
