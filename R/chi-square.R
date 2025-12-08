@@ -6,9 +6,9 @@
 #' particularly for tests of goodness of fit and independence in contingency tables.
 #' It is defined for \code{x >= 0}.
 #'
-#' @param x Numeric value(s) for PDF (must be non-negative).
-#' @param q Numeric value(s) for CDF.
-#' @param df Degrees of freedom (must be > 0).
+#' @param x Numeric value(s) for PDF (must be non-negative). x = Chi-value = ((n-1) (S^2)) / sigma^2 
+#' @param q Numeric value(s) for CDF. q = Chi-value
+#' @param df Degrees of freedom (must be > 0). df = n-1
 #' @param n Number of random observations to generate.
 #'
 #' @return

@@ -13,11 +13,11 @@ chi_square_cdf(q, df)
 chi_square_rnd(n, df)
 }
 \arguments{
-\item{x}{Numeric value(s) for PDF (must be non-negative).}
+\item{x}{Numeric value(s) for PDF (must be non-negative). x = Chi-value = ((n-1) (S^2)) / sigma^2}
 
-\item{df}{Degrees of freedom (must be > 0).}
+\item{df}{Degrees of freedom (must be > 0). df = n-1}
 
-\item{q}{Numeric value(s) for CDF.}
+\item{q}{Numeric value(s) for CDF. q = Chi-value}
 
 \item{n}{Number of random observations to generate.}
 }
